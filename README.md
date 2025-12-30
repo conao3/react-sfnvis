@@ -1,32 +1,58 @@
-# Remix
+# react-sfnvis
 
-This directory is a brief example of a [Remix](https://remix.run/docs) site that can be deployed to Vercel with zero configuration.
+A React web application built with [Remix](https://remix.run), configured for seamless deployment on Vercel.
 
-## Deploy Your Own
+## Getting Started
+
+### Prerequisites
+
+- Node.js 14 or higher
+- npm, yarn, or pnpm
+
+### Installation
+
+```sh
+npm install
+```
+
+### Development
+
+Start the development server:
+
+```sh
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+### Production Build
+
+```sh
+npm run build
+```
+
+## Deployment
+
+This project is configured for zero-configuration deployment on Vercel.
+
+### Deploy with Vercel
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/remix&template=remix)
 
-_Live Example: https://remix-run-template.vercel.app_
-
-You can also deploy using the [Vercel CLI](https://vercel.com/cli):
+### Deploy via CLI
 
 ```sh
 npm i -g vercel
 vercel
 ```
 
-## Development
+## Tech Stack
 
-To run your Remix app locally, make sure your project's local dependencies are installed:
+- [React](https://react.dev) - UI library
+- [Remix](https://remix.run) - Full-stack web framework
+- [TypeScript](https://www.typescriptlang.org) - Type safety
+- [Vercel](https://vercel.com) - Deployment platform
 
-```sh
-npm install
-```
+## License
 
-Afterwards, start the Remix development server like so:
-
-```sh
-npm run dev
-```
-
-Open up [http://localhost:3000](http://localhost:3000) and you should be ready to go!
+MIT
