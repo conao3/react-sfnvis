@@ -1,18 +1,18 @@
 # react-sfnvis
 
-A React web application built with [Remix](https://remix.run), configured for seamless deployment on Vercel.
+A React web application built with [React Router](https://reactrouter.com) framework mode, configured for deployment on Vercel.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 14 or higher
-- npm, yarn, or pnpm
+- Node.js 20 or higher
+- pnpm
 
 ### Installation
 
 ```sh
-npm install
+pnpm install
 ```
 
 ### Development
@@ -20,7 +20,7 @@ npm install
 Start the development server:
 
 ```sh
-npm run dev
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
@@ -28,7 +28,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 ### Production Build
 
 ```sh
-npm run build
+pnpm build
 ```
 
 ## Deployment
@@ -49,7 +49,7 @@ vercel
 ## Tech Stack
 
 - [React](https://react.dev) - UI library
-- [Remix](https://remix.run) - Full-stack web framework
+- [React Router](https://reactrouter.com) - Full-stack framework
 - [TypeScript](https://www.typescriptlang.org) - Type safety
 - [Vercel](https://vercel.com) - Deployment platform
 
